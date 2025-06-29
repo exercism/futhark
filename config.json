@@ -15,16 +15,29 @@
     "indent_size": 2
   },
   "files": {
-    "solution": ["%{snake_slug}.fut"],
-    "test": ["tests.fut"],
-    "example": [".meta/example.fut"],
-    "exemplar": [".meta/examplar.fut"]
+    "solution": [
+      "%{snake_slug}.fut"
+    ],
+    "test": [
+      "tests.fut"
+    ],
+    "example": [
+      ".meta/example.fut"
+    ],
+    "exemplar": [
+      ".meta/examplar.fut"
+    ]
   },
-  "exercises": {
-    "concept": [],
-    "practice": []
-  },
-  "concepts": [],
-  "key_features": [],
-  "tags": []
+  "tags": [
+    "execution_mode/compiled",
+    "paradigm/array",
+    "paradigm/functional",
+    "platform/linux",
+    "platform/mac",
+    "platform/windows",
+    "runtime/standalone_executable",
+    "typing/static",
+    "typing/strong",
+    "used_for/scientific_calculations"
+  ]
 }
