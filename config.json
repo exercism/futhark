@@ -28,6 +28,18 @@
       ".meta/examplar.fut"
     ]
   },
+  "exercises": {
+    "practice": [
+      {
+        "slug": "leap",
+        "name": "Leap",
+        "uuid": "f47fb89b-1226-4318-bb36-1c5c02b8d38a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      }
+    ]
+  },
   "tags": [
     "execution_mode/compiled",
     "paradigm/array",
