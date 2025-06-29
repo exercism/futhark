@@ -15,10 +15,10 @@
     "indent_size": 4
   },
   "files": {
-    "solution": [],
-    "test": [],
-    "example": [],
-    "exemplar": []
+    "solution": ["%{snake_slug}.fut"],
+    "test": ["tests.fut"],
+    "example": [".meta/example.fut"],
+    "exemplar": [".meta/examplar.fut"]
   },
   "exercises": {
     "concept": [],
