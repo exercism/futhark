@@ -31,6 +31,14 @@
   "exercises": {
     "practice": [
       {
+        "slug": "hello-world",
+        "name": "Hello World",
+        "uuid": "3e7dfbab-7236-4caa-bda1-993043de4cf0",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
         "slug": "leap",
         "name": "Leap",
         "uuid": "f47fb89b-1226-4318-bb36-1c5c02b8d38a",
