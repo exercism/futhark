@@ -19,7 +19,7 @@
       "%{snake_slug}.fut"
     ],
     "test": [
-      "tests.fut"
+      "test.fut"
     ],
     "example": [
       ".meta/example.fut"
