@@ -61,6 +61,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 2
+      },
+      {
+        "slug": "reverse-string",
+        "name": "Reverse String",
+        "uuid": "9b97b6c3-ef2b-4f90-a485-8dd98375076f",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
       }
     ]
   },
