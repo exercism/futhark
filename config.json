@@ -31,17 +31,17 @@
   "exercises": {
     "practice": [
       {
-        "slug": "hello-world",
-        "name": "Hello World",
-        "uuid": "3e7dfbab-7236-4caa-bda1-993043de4cf0",
+        "slug": "darts",
+        "name": "Darts",
+        "uuid": "35eba9b9-2d1c-496e-946c-a47dc92d8f8f",
         "practices": [],
         "prerequisites": [],
         "difficulty": 1
       },
       {
-        "slug": "darts",
-        "name": "Darts",
-        "uuid": "35eba9b9-2d1c-496e-946c-a47dc92d8f8f",
+        "slug": "hello-world",
+        "name": "Hello World",
+        "uuid": "3e7dfbab-7236-4caa-bda1-993043de4cf0",
         "practices": [],
         "prerequisites": [],
         "difficulty": 1
