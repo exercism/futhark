@@ -63,6 +63,14 @@
         "difficulty": 2
       },
       {
+        "slug": "eliuds-eggs",
+        "name": "Eliud's Eggs",
+        "uuid": "47e0105b-d2c8-4555-8272-add142bb0cd6",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
         "slug": "reverse-string",
         "name": "Reverse String",
         "uuid": "9b97b6c3-ef2b-4f90-a485-8dd98375076f",
@@ -77,6 +85,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 2
+      },
+      {
+        "slug": "collatz-conjecture",
+        "name": "Collatz Conjecture",
+        "uuid": "84147404-fa0a-43e7-9df1-81a9e21e2c81",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
       },
       {
         "slug": "hamming",
@@ -135,20 +151,12 @@
         "difficulty": 4
       },
       {
-        "slug": "collatz-conjecture",
-        "name": "Collatz Conjecture",
-        "uuid": "84147404-fa0a-43e7-9df1-81a9e21e2c81",
+        "slug": "high-scores",
+        "name": "High Scores",
+        "uuid": "d20b330c-6018-4cc3-990e-9b4f6cf237fe",
         "practices": [],
         "prerequisites": [],
-        "difficulty": 3
-      },
-      {
-        "slug": "eliuds-eggs",
-        "name": "Eliud's Eggs",
-        "uuid": "47e0105b-d2c8-4555-8272-add142bb0cd6",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 2
+        "difficulty": 5
       }
     ]
   },

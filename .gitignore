@@ -6,3 +6,6 @@ bin/configlet.exe
 *.actual
 *.expected
 test
+*.tmp
+exercises/practice/*/lib/
+exercises/practice/*/futhark.pkg
