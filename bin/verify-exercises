@@ -26,9 +26,17 @@ copy_example_or_examplar_to_solution() {
     | while read -r src_and_dst; do
         cp "$(jq -r '.src' <<< "${src_and_dst}")" "$(jq -r '.dst' <<< "${src_and_dst}")"
     done
+
+    if [[ -f .meta/futhark.pkg ]]; then
+        cp .meta/futhark.pkg futhark.pkg
+    fi
 }
 
 run_tests() {
+    if [[ -f futhark.pkg ]]; then
+        futhark pkg sync
+    fi
+
     futhark test test.fut
 }
 
