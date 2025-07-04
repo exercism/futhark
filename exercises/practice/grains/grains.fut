@@ -1,0 +1,3 @@
+def square(n: i32): u64 = ???
+
+def total(): u64 = ???
