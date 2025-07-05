@@ -167,6 +167,14 @@
         "difficulty": 4
       },
       {
+        "slug": "largest-series-product",
+        "name": "Largest Series Product",
+        "uuid": "f857f948-e1ee-4614-bd55-575218635ed8",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "high-scores",
         "name": "High Scores",
         "uuid": "d20b330c-6018-4cc3-990e-9b4f6cf237fe",
