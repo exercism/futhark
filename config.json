@@ -183,6 +183,14 @@
         "difficulty": 4
       },
       {
+        "slug": "triangle",
+        "name": "Triangle",
+        "uuid": "fc69c36e-7c7f-40c3-a72c-dce5081b6117",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "high-scores",
         "name": "High Scores",
         "uuid": "d20b330c-6018-4cc3-990e-9b4f6cf237fe",
