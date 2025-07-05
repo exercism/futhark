@@ -175,6 +175,14 @@
         "difficulty": 4
       },
       {
+        "slug": "perfect-numbers",
+        "name": "Perfect Numbers",
+        "uuid": "1d055a9e-8be3-43b7-b254-fe918d864c61",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "high-scores",
         "name": "High Scores",
         "uuid": "d20b330c-6018-4cc3-990e-9b4f6cf237fe",
