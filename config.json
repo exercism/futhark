@@ -199,6 +199,14 @@
         "difficulty": 4
       },
       {
+        "slug": "queen-attack",
+        "name": "Queen Attack",
+        "uuid": "b8e8710d-fd7d-4a13-b138-00864b8fe0ad",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "triangle",
         "name": "Triangle",
         "uuid": "fc69c36e-7c7f-40c3-a72c-dce5081b6117",
