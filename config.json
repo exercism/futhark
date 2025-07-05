@@ -207,6 +207,14 @@
         "difficulty": 4
       },
       {
+        "slug": "roman-numerals",
+        "name": "Roman Numerals",
+        "uuid": "eb574196-784b-4da5-ac15-b763d8108abd",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "triangle",
         "name": "Triangle",
         "uuid": "fc69c36e-7c7f-40c3-a72c-dce5081b6117",
