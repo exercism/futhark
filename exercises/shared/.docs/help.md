@@ -2,7 +2,7 @@
 
 Below are some resources for getting help if you run into trouble:
 
-- [The Futhark project's main website][main] hosts [documentation][docs], [examples][examples], a [language reference]([language-reference]) and more.
+- [The Futhark project's main website][main] hosts [documentation][docs], [examples][examples], a [language reference][language-reference] and more.
 - [Parallel Programming in Futhark][book] is a book designed as an introduction to the language.
 - [The Exercism Community on Discord][exercism-discord]
 - The `#futhark` channel on [Libera][libera]
