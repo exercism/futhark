@@ -1,13 +1,13 @@
 # Resources
 
-<!-- TODO: write document
+- [The official website][main]
+- [Documentation][docs]
+  - [Parallel programming in Futhark][book]
+  - [Language reference][language-reference]
+- [Examples][examples]
 
-  This document should link to useful resources.
-
-  Feel free to link to any good resources you know, whether they
-  be websites, videos, mailing lists, etc.
-
-  The contents of this document are displayed on the track's documentation
-  page at `https://exercism.org/docs/tracks/<track>/resources`.
-
-  See https://exercism.org/docs/building/tracks/docs for more information. -->
+[main]: https://futhark-lang.org/
+[docs]: https://futhark-lang.org/docs.html
+[language-reference]: https://futhark.readthedocs.io/en/stable/language-reference.html
+[examples]: https://futhark-lang.org/examples.html
+[book]: https://futhark-book.readthedocs.io/
