@@ -8,7 +8,7 @@
     "representer": false,
     "analyzer": false
   },
-  "blurb": "TODO: add blurb",
+  "blurb": "Futhark is a purely functional programming language designed for high-performance data-parallel computing.",
   "version": 3,
   "online_editor": {
     "indent_style": "space",
