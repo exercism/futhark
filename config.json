@@ -248,6 +248,38 @@
       }
     ]
   },
+  "key_features": [
+    {
+      "title": "Fast",
+      "content": "Futhark is designed for high-performance computing via its heavily optimising AOT compiler.",
+      "icon": "fast"
+    },
+    {
+      "title": "Parallel",
+      "content": "Most Futhark code is automatically parallelized, taking advantage of modern multi-core CPUs.",
+      "icon": "concurrency"
+    },
+    {
+      "title": "Multi-platform",
+      "content": "Futhark code compiles to either GPU code or multi-threaded CPU code.",
+      "icon": "cross-platform"
+    },
+    {
+      "title": "Interoperable",
+      "content": "Futhark is designed for easy interoperability with languages like C and Python.",
+      "icon": "interop"
+    },
+    {
+      "title": "Small",
+      "content": "Futhark is a small language with little syntax, making it easy to learn.",
+      "icon": "small"
+    },
+    {
+      "title": "Pure",
+      "content": "Futhark is a pure functional language without side-effects, making it easier to reason about code.",
+      "icon": "powerful"
+    }
+  ],
   "tags": [
     "execution_mode/compiled",
     "paradigm/array",
