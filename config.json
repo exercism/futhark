@@ -103,6 +103,14 @@
         "difficulty": 2
       },
       {
+        "slug": "binary-search",
+        "name": "Binary Search",
+        "uuid": "977f91d1-b99f-46e5-bf5d-84947d517030",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
         "slug": "collatz-conjecture",
         "name": "Collatz Conjecture",
         "uuid": "84147404-fa0a-43e7-9df1-81a9e21e2c81",
