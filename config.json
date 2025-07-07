@@ -223,6 +223,14 @@
         "difficulty": 4
       },
       {
+        "slug": "luhn",
+        "name": "Luhn",
+        "uuid": "4d1714d4-76ef-4a73-8d6f-7c24b11255ed",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "perfect-numbers",
         "name": "Perfect Numbers",
         "uuid": "1d055a9e-8be3-43b7-b254-fe918d864c61",
