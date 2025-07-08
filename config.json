@@ -269,6 +269,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 5
+      },
+      {
+        "slug": "intergalactic-transmission",
+        "name": "Intergalactic Transmission",
+        "uuid": "e1a17d2a-9bf9-40ce-b1fa-75880354f2d5",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 6
       }
     ]
   },
