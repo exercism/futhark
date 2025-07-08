@@ -239,6 +239,14 @@
         "difficulty": 4
       },
       {
+        "slug": "matching-brackets",
+        "name": "Matching Brackets",
+        "uuid": "7157971c-c363-4c46-ac06-fdce983c74d6",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "perfect-numbers",
         "name": "Perfect Numbers",
         "uuid": "1d055a9e-8be3-43b7-b254-fe918d864c61",
