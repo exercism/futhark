@@ -207,6 +207,14 @@
         "difficulty": 4
       },
       {
+        "slug": "atbash-cipher",
+        "name": "Atbash Cipher",
+        "uuid": "dfefc340-114c-4a90-be7b-82829c8f0805",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "bob",
         "name": "Bob",
         "uuid": "2f718017-3874-42dc-9451-a1d408d1682d",
