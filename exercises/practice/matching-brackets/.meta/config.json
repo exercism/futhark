@@ -1,0 +1,18 @@
+{
+  "authors": [
+    "keiravillekode"
+  ],
+  "files": {
+    "solution": [
+      "matching_brackets.fut"
+    ],
+    "test": [
+      "test.fut"
+    ],
+    "example": [
+      ".meta/example.fut"
+    ]
+  },
+  "blurb": "Make sure the brackets and braces all match.",
+  "source": "Ginna Baker"
+}
