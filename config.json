@@ -295,6 +295,14 @@
         "difficulty": 5
       },
       {
+        "slug": "crypto-square",
+        "name": "Crypto Square",
+        "uuid": "d833b43d-fd4a-4f0a-b80e-9b81b4f34ad1",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "high-scores",
         "name": "High Scores",
         "uuid": "d20b330c-6018-4cc3-990e-9b4f6cf237fe",
