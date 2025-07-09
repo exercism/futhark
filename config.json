@@ -207,6 +207,14 @@
         "difficulty": 3
       },
       {
+        "slug": "all-your-base",
+        "name": "All Your Base",
+        "uuid": "8e88bcf3-a492-4a09-8c3c-33718446ec1a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "armstrong-numbers",
         "name": "Armstrong Numbers",
         "uuid": "3849a1ff-d7b2-4633-9963-1c4ecc62a230",
