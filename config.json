@@ -279,6 +279,14 @@
         "difficulty": 4
       },
       {
+        "slug": "affine-cipher",
+        "name": "Affine Cipher",
+        "uuid": "5c3b9731-2e1c-4bfc-bd92-71ae20e7a7c8",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "high-scores",
         "name": "High Scores",
         "uuid": "d20b330c-6018-4cc3-990e-9b4f6cf237fe",
