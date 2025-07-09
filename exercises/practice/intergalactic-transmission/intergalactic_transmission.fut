@@ -1,3 +1,3 @@
-def transmit_sequence (message: []u8): []u8 = ???
+def transmit_sequence (message: []i32): []i32 = ???
 
-def decode_message (message: []u8): []u8 = ???
+def decode_message (message: []i32): []i32 = ???
