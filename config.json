@@ -199,14 +199,6 @@
         "difficulty": 3
       },
       {
-        "slug": "affine-cipher",
-        "name": "Affine Cipher",
-        "uuid": "5c3b9731-2e1c-4bfc-bd92-71ae20e7a7c8",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 4
-      },
-      {
         "slug": "armstrong-numbers",
         "name": "Armstrong Numbers",
         "uuid": "3849a1ff-d7b2-4633-9963-1c4ecc62a230",
@@ -285,6 +277,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 4
+      },
+      {
+        "slug": "affine-cipher",
+        "name": "Affine Cipher",
+        "uuid": "5c3b9731-2e1c-4bfc-bd92-71ae20e7a7c8",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
       },
       {
         "slug": "high-scores",
