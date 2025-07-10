@@ -327,6 +327,14 @@
         "difficulty": 5
       },
       {
+        "slug": "variable-length-quantity",
+        "name": "Variable Length Quantity",
+        "uuid": "72798afc-0408-4cac-ab99-b4952942bd2e",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "intergalactic-transmission",
         "name": "Intergalactic Transmission",
         "uuid": "e1a17d2a-9bf9-40ce-b1fa-75880354f2d5",
