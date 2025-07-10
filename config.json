@@ -159,6 +159,14 @@
         "difficulty": 3
       },
       {
+        "slug": "prime-factors",
+        "name": "Prime Factors",
+        "uuid": "17b57129-15ca-49a6-80b9-19d7477bf590",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
         "slug": "raindrops",
         "name": "Raindrops",
         "uuid": "5673f805-e04c-47cd-88a2-af6898f20835",
