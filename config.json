@@ -279,6 +279,14 @@
         "difficulty": 4
       },
       {
+        "slug": "nth-prime",
+        "name": "Nth Prime",
+        "uuid": "fe8e3e7e-f239-40dc-8f3e-e07fa099da36",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "perfect-numbers",
         "name": "Perfect Numbers",
         "uuid": "1d055a9e-8be3-43b7-b254-fe918d864c61",
