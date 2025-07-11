@@ -335,6 +335,14 @@
         "difficulty": 5
       },
       {
+        "slug": "run-length-encoding",
+        "name": "Run-Length Encoding",
+        "uuid": "9b14d6e1-bd0e-4450-817f-e6e2c3958a3d",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "variable-length-quantity",
         "name": "Variable Length Quantity",
         "uuid": "72798afc-0408-4cac-ab99-b4952942bd2e",
