@@ -279,14 +279,6 @@
         "difficulty": 4
       },
       {
-        "slug": "nth-prime",
-        "name": "Nth Prime",
-        "uuid": "fe8e3e7e-f239-40dc-8f3e-e07fa099da36",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 4
-      },
-      {
         "slug": "perfect-numbers",
         "name": "Perfect Numbers",
         "uuid": "1d055a9e-8be3-43b7-b254-fe918d864c61",
@@ -346,6 +338,14 @@
         "slug": "run-length-encoding",
         "name": "Run-Length Encoding",
         "uuid": "9b14d6e1-bd0e-4450-817f-e6e2c3958a3d",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
+        "slug": "nth-prime",
+        "name": "Nth Prime",
+        "uuid": "fe8e3e7e-f239-40dc-8f3e-e07fa099da36",
         "practices": [],
         "prerequisites": [],
         "difficulty": 5
