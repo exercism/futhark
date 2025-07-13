@@ -343,6 +343,14 @@
         "difficulty": 5
       },
       {
+        "slug": "nth-prime",
+        "name": "Nth Prime",
+        "uuid": "fe8e3e7e-f239-40dc-8f3e-e07fa099da36",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "variable-length-quantity",
         "name": "Variable Length Quantity",
         "uuid": "72798afc-0408-4cac-ab99-b4952942bd2e",
