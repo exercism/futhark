@@ -335,17 +335,17 @@
         "difficulty": 5
       },
       {
-        "slug": "run-length-encoding",
-        "name": "Run-Length Encoding",
-        "uuid": "9b14d6e1-bd0e-4450-817f-e6e2c3958a3d",
+        "slug": "nth-prime",
+        "name": "Nth Prime",
+        "uuid": "fe8e3e7e-f239-40dc-8f3e-e07fa099da36",
         "practices": [],
         "prerequisites": [],
         "difficulty": 5
       },
       {
-        "slug": "nth-prime",
-        "name": "Nth Prime",
-        "uuid": "fe8e3e7e-f239-40dc-8f3e-e07fa099da36",
+        "slug": "run-length-encoding",
+        "name": "Run-Length Encoding",
+        "uuid": "9b14d6e1-bd0e-4450-817f-e6e2c3958a3d",
         "practices": [],
         "prerequisites": [],
         "difficulty": 5
@@ -365,6 +365,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 6
+      },
+      {
+        "slug": "change",
+        "name": "Change",
+        "uuid": "3aa8ad23-2691-478f-9a50-4c14ad6b753e",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 7
       }
     ]
   },
