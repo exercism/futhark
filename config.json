@@ -367,6 +367,14 @@
         "difficulty": 6
       },
       {
+        "slug": "book-store",
+        "name": "Book Store",
+        "uuid": "c9333f25-a92f-4f47-bf5f-f5543fc028b3",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 7
+      },
+      {
         "slug": "change",
         "name": "Change",
         "uuid": "3aa8ad23-2691-478f-9a50-4c14ad6b753e",
