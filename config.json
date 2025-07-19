@@ -335,6 +335,14 @@
         "difficulty": 5
       },
       {
+        "slug": "knapsack",
+        "name": "Knapsack",
+        "uuid": "e35d9981-453c-444d-b7a4-7c8646d0b2d0",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "nth-prime",
         "name": "Nth Prime",
         "uuid": "fe8e3e7e-f239-40dc-8f3e-e07fa099da36",
