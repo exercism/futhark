@@ -1,3 +1,3 @@
-type zebra_question = #drinks_water | #owns_zebra
+def drinks_water: []u8 = ???
 
-def answer (question: zebra_question): []u8 = ???
+def owns_zebra: []u8 = ???

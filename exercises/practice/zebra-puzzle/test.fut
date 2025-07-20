@@ -2,13 +2,18 @@ import "zebra_puzzle"
 
 -- resident who drinks water
 -- ==
--- input { 0i64 }
+-- entry: test_drinks_water
+-- input {}
 -- output { "Norwegian" }
 
 -- resident who owns zebra
 -- ==
--- input { 1i64 }
+-- entry: test_owns_zebra
+-- input {}
 -- output { "Japanese" }
 
-let main (question_index: i64): []u8 =
-  answer ([#drinks_water, #owns_zebra][question_index])
+entry test_drinks_water: []u8 =
+  drinks_water
+
+entry test_owns_zebra: []u8 =
+  owns_zebra
