@@ -1,0 +1,3 @@
+def drinks_water: []u8 = ???
+
+def owns_zebra: []u8 = ???
