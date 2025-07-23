@@ -322,6 +322,14 @@
         "difficulty": 4
       },
       {
+        "slug": "sieve",
+        "name": "Sieve",
+        "uuid": "105acc5d-dc8b-4fb9-b8f3-5faab3990954",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "triangle",
         "name": "Triangle",
         "uuid": "fc69c36e-7c7f-40c3-a72c-dce5081b6117",
