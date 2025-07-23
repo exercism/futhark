@@ -311,6 +311,14 @@
         "difficulty": 4
       },
       {
+        "slug": "saddle-points",
+        "name": "Saddle Points",
+        "uuid": "63af24ea-4dc9-485a-8977-223fe2ee0751",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "triangle",
         "name": "Triangle",
         "uuid": "fc69c36e-7c7f-40c3-a72c-dce5081b6117",
