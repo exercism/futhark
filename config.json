@@ -386,6 +386,14 @@
         "difficulty": 5
       },
       {
+        "slug": "twelve-days",
+        "name": "Twelve Days",
+        "uuid": "cd0467e6-14ca-4372-b896-aa44f537225b",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "variable-length-quantity",
         "name": "Variable Length Quantity",
         "uuid": "72798afc-0408-4cac-ab99-b4952942bd2e",
