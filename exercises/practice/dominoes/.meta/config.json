@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "keiravillekode"
+  ],
+  "files": {
+    "solution": [
+      "dominoes.fut"
+    ],
+    "test": [
+      "test.fut"
+    ],
+    "example": [
+      ".meta/example.fut"
+    ]
+  },
+  "blurb": "Make a chain of dominoes."
+}
