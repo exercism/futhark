@@ -442,6 +442,14 @@
         "difficulty": 7
       },
       {
+        "slug": "pig-latin",
+        "name": "Pig Latin",
+        "uuid": "c0bd0c12-6ca9-424b-8300-adfda73aaaf4",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 7
+      },
+      {
         "slug": "rail-fence-cipher",
         "name": "Rail Fence Cipher",
         "uuid": "4e80fefa-8209-43c4-9740-cf8e54b9aecd",
