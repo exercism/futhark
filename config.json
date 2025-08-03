@@ -386,6 +386,14 @@
         "difficulty": 5
       },
       {
+        "slug": "proverb",
+        "name": "Proverb",
+        "uuid": "901faf71-670a-4a8a-b948-e7df0b8ed248",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
+      },
+      {
         "slug": "run-length-encoding",
         "name": "Run-Length Encoding",
         "uuid": "9b14d6e1-bd0e-4450-817f-e6e2c3958a3d",
