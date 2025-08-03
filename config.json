@@ -106,6 +106,14 @@
         "difficulty": 2
       },
       {
+        "slug": "acronym",
+        "name": "Acronym",
+        "uuid": "970bea05-1a05-4f88-9401-2977b8358f5d",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
         "slug": "binary-search",
         "name": "Binary Search",
         "uuid": "977f91d1-b99f-46e5-bf5d-84947d517030",
