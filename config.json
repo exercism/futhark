@@ -498,6 +498,14 @@
         "difficulty": 8
       },
       {
+        "slug": "wordy",
+        "name": "Wordy",
+        "uuid": "bcfdd937-5cbb-4ac3-80f9-818724d87c4c",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 8
+      },
+      {
         "slug": "zebra-puzzle",
         "name": "Zebra Puzzle",
         "uuid": "c317b776-57ef-4776-9a1e-70a928171e2d",
