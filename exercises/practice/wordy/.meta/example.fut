@@ -33,11 +33,12 @@ def question_mark_at_end [n] (word: [n]u8): bool =
     result && word[n - 1] == '?'
 
 def calculate (first: i32) (operation: u8) (second: i32): i32 =
-  if operation == '+' then first + second else
-  if operation == '-' then first - second else
-  if operation == '*' then first * second else
-  if operation == '/' then first / second else
-  assert false 0
+  match operation
+    case '+' -> first + second
+    case '-' -> first - second
+    case '*' -> first * second
+    case '/' -> first / second
+    case _ -> assert false 0
 
 def answer (question: []u8): i32 =
   let offsets = assert (question_mark_at_end question) (find_offsets question)
