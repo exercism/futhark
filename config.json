@@ -442,6 +442,14 @@
         "difficulty": 6
       },
       {
+        "slug": "food-chain",
+        "name": "Food Chain",
+        "uuid": "38efaf36-0fd5-493b-ac3b-3662510e2d9a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 6
+      },
+      {
         "slug": "intergalactic-transmission",
         "name": "Intergalactic Transmission",
         "uuid": "e1a17d2a-9bf9-40ce-b1fa-75880354f2d5",
