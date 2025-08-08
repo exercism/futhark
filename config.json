@@ -514,6 +514,14 @@
         "difficulty": 8
       },
       {
+        "slug": "meetup",
+        "name": "Meetup",
+        "uuid": "6dcd24ed-902b-4fa4-9816-e28b87c157f0",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 8
+      },
+      {
         "slug": "wordy",
         "name": "Wordy",
         "uuid": "bcfdd937-5cbb-4ac3-80f9-818724d87c4c",
