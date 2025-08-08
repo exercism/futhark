@@ -9,3 +9,4 @@ test
 *.tmp
 exercises/practice/*/lib/
 exercises/practice/*/futhark.pkg
+__pycache__/

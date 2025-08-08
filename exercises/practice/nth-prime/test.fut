@@ -15,25 +15,25 @@ import "nth_prime"
 -- input { 6 }
 -- output { 13 }
 
--- seventh prime
--- ==
--- input { 7 }
--- output { 17 }
-
 -- big prime
 -- ==
 -- input { 10001 }
 -- output { 104743 }
 
--- very big prime
--- ==
--- input { 65537 }
--- output { 821647 }
-
 -- there is no zeroth prime
 -- ==
 -- input { 0 }
 -- error: Error*
+
+-- seventh prime
+-- ==
+-- input { 7 }
+-- output { 17 }
+
+-- very big prime
+-- ==
+-- input { 65537 }
+-- output { 821647 }
 
 let main (number: i32): i32 =
   prime number
