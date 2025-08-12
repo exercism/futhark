@@ -27,4 +27,3 @@ import "sieve"
 
 def main (limit: i32): []i32 =
   primes limit
-

@@ -1,0 +1,108 @@
+#!/usr/bin/env python3
+
+import argparse
+import importlib
+import json
+import os
+import re
+import subprocess
+import sys
+
+# tomllib is available in the standard library as of Python 3.11
+# When using an older release, we use the compatible tomli
+try:
+    import tomllib
+except ModuleNotFoundError:
+    import tomli as tomllib
+
+
+def camel_to_snake(s):
+    s1 = re.sub("(.)([A-Z][a-z]+)", r"\1_\2", s)
+    return re.sub("([a-z0-9])([A-Z])", r"\1_\2", s1).lower()
+
+
+def read_canonical_data(exercise):
+    prefix = "Using cached 'problem-specifications' dir: "
+    args = ["bin/configlet", "info", "-o", "-v", "d"]
+    info = subprocess.run(
+        args, capture_output=True, check=True, text=True
+    ).stdout.split("\n")
+    cache_dir = [line[len(prefix) :] for line in info if line.startswith(prefix)]
+    if len(cache_dir) != 1:
+        raise Exception("Could not determine 'problem-specifications' dir")
+    path = f"{cache_dir[0]}/exercises/{exercise}/canonical-data.json"
+    with open(path, "r") as f:
+        return json.loads(f.read())
+
+
+def flatten_cases(data):
+    cases_by_id = {}
+
+    def traverse(node):
+        nonlocal cases_by_id
+        if "cases" in node:
+            for child in node["cases"]:
+                traverse(child)
+        else:
+            add_case(cases_by_id, node)
+
+    traverse(data)
+    return [cases_by_id[uuid] for uuid in cases_by_id]
+
+
+def add_case(cases_by_id, case):
+    if "reimplements" in case:
+        cases_by_id[case["reimplements"]] = case
+    else:
+        cases_by_id[case["uuid"]] = case
+
+
+def gen_main(mod, f):
+    mod.gen_main(f)
+
+
+def gen_test_case(mod, case, f):
+    prop = camel_to_snake(case["property"])
+    mod.gen_test_case(prop, case["description"], case["input"], case["expected"], f)
+
+
+def gen_test_cases(mod, cases, f):
+    for case in cases:
+        gen_test_case(mod, case, f)
+
+
+def gen_test_file(mod, cases, f):
+    gen_test_cases(mod, cases, f)
+    gen_main(mod, f)
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("exercise")
+    parser.add_argument("-i", "--ignore-toml", action="store_true")
+    args = parser.parse_args()
+    data = read_canonical_data(args.exercise)
+    cases = flatten_cases(data)
+    test_toml = f"{sys.path[0]}/../exercises/practice/{args.exercise}/.meta/tests.toml"
+    if os.path.exists(test_toml) and not args.ignore_toml:
+        with open(test_toml, "rb") as f:
+            test_toml = tomllib.load(f)
+        cases = list(
+            filter(
+                lambda case: test_toml.get(case["uuid"], {}).get("include", True), cases
+            )
+        )
+    exercise = args.exercise.replace("-", "_")
+    mod = importlib.import_module("exercises." + exercise)
+    if hasattr(mod, "extra_cases"):
+        cases = cases[:]
+        cases.extend(mod.extra_cases())
+    os.makedirs(f"{sys.path[0]}/../exercises/practice/{args.exercise}", exist_ok=True)
+    path = f"{sys.path[0]}/../exercises/practice/{args.exercise}/test.fut"
+    with open(path, "w") as f:
+        f.write(f'import "{exercise}"\n\n')
+        gen_test_file(mod, cases, f)
+
+
+if __name__ == "__main__":
+    main()
