@@ -162,6 +162,14 @@
         "difficulty": 3
       },
       {
+        "slug": "kindergarten-garden",
+        "name": "Kindergarten Garden",
+        "uuid": "00c93347-a80d-4b75-b122-86550f824d0d",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
         "slug": "pangram",
         "name": "Pangram",
         "uuid": "24d20d07-4c11-43f7-9af7-2b279e87dc58",
