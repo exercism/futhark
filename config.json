@@ -522,6 +522,14 @@
         "difficulty": 8
       },
       {
+        "slug": "killer-sudoku-helper",
+        "name": "Killer Sudoku Helper",
+        "uuid": "5fa1804c-4164-497c-8ff4-695921048b03",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 8
+      },
+      {
         "slug": "wordy",
         "name": "Wordy",
         "uuid": "bcfdd937-5cbb-4ac3-80f9-818724d87c4c",
