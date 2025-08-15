@@ -346,6 +346,14 @@
         "difficulty": 4
       },
       {
+        "slug": "transpose",
+        "name": "Transpose",
+        "uuid": "7e710cec-4e92-4aac-87ca-eb9f6af5b334",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "triangle",
         "name": "Triangle",
         "uuid": "fc69c36e-7c7f-40c3-a72c-dce5081b6117",
@@ -522,17 +530,17 @@
         "difficulty": 8
       },
       {
-        "slug": "meetup",
-        "name": "Meetup",
-        "uuid": "6dcd24ed-902b-4fa4-9816-e28b87c157f0",
+        "slug": "killer-sudoku-helper",
+        "name": "Killer Sudoku Helper",
+        "uuid": "5fa1804c-4164-497c-8ff4-695921048b03",
         "practices": [],
         "prerequisites": [],
         "difficulty": 8
       },
       {
-        "slug": "killer-sudoku-helper",
-        "name": "Killer Sudoku Helper",
-        "uuid": "5fa1804c-4164-497c-8ff4-695921048b03",
+        "slug": "meetup",
+        "name": "Meetup",
+        "uuid": "6dcd24ed-902b-4fa4-9816-e28b87c157f0",
         "practices": [],
         "prerequisites": [],
         "difficulty": 8
