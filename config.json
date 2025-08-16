@@ -322,6 +322,14 @@
         "difficulty": 4
       },
       {
+        "slug": "protein-translation",
+        "name": "Protein Translation",
+        "uuid": "546929bd-ff42-498e-87dc-b50b07e2803b",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "queen-attack",
         "name": "Queen Attack",
         "uuid": "b8e8710d-fd7d-4a13-b138-00864b8fe0ad",
