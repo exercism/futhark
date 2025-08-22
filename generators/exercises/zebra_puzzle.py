@@ -3,7 +3,7 @@ def gen_test_case(prop, description, inp, expected, f):
     f.write("-- ==\n")
     f.write(f"-- entry: test_{prop}\n")
     f.write("-- input {}\n")
-    f.write("-- output {" + f' "{expected}" ' + "}\n\n")
+    f.write(f'-- output {{ "{expected}" }}\n\n')
 
 
 def gen_main(f):

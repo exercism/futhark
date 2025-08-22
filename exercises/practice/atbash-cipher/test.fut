@@ -84,6 +84,12 @@ import "atbash_cipher"
 -- input { "zmlyhgzxovrhlugvmzhgvkkrmthglmv" }
 -- output { "anobstacleisoftenasteppingstone" }
 
+-- encode boundary characters
+-- ==
+-- entry: test_encode
+-- input { "/09:@AMNZ[`amnz{" }
+-- output { "09znm aznma" }
+
 entry test_encode (phrase: []u8): []u8 =
   encode phrase
 

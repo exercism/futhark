@@ -5,8 +5,8 @@ def gen_test_case(prop, description, inp, expected, f):
 
     f.write(f"-- {description}\n")
     f.write("-- ==\n")
-    f.write("-- input {" + f" {start_verse} {end_verse} " + "}\n")
-    f.write("-- output {" + f' "{expected}" ' + "}\n\n")
+    f.write(f"-- input {{ {start_verse} {end_verse} }}\n")
+    f.write(f'-- output {{ "{expected}" }}\n\n')
 
 
 def gen_main(f):
