@@ -1,4 +1,4 @@
-def extra_cases_disabled():
+def extra_cases():
     return [
         {
             "description": "encode boundary characters",
@@ -14,9 +14,8 @@ def gen_test_case(prop, description, inp, expected, f):
     f.write(f"-- {description}\n")
     f.write("-- ==\n")
     f.write(f"-- entry: test_{prop}\n")
-    f.write("-- input {" + f' "{phrase}" ' + "}\n")
-    f.write("-- output {" + f' "{expected}" ' + "}\n\n")
-    # f.write(f'-- output: { "{expected}" }\n\n')
+    f.write(f'-- input {{ "{phrase}" }}\n')
+    f.write(f'-- output {{ "{expected}" }}\n\n')
 
 
 def gen_main(f):

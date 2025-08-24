@@ -12,12 +12,12 @@ def gen_test_case(prop, description, inp, expected, f):
     f.write(f"-- {description}\n")
     f.write("-- ==\n")
     f.write(f"-- entry: test_{prop}\n")
-    f.write("-- input {" + f" {integers} " + "}\n")
+    f.write(f"-- input {{ {integers} }}\n")
     if isinstance(expected, dict):
         f.write("-- error: Error*\n\n")
     else:
         expected = serialize(expected)
-        f.write("-- output {" + f" {expected} " + "}\n\n")
+        f.write(f"-- output {{ {expected} }}\n\n")
 
 
 def gen_main(f):
