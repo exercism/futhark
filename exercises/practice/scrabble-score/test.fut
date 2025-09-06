@@ -1,56 +1,56 @@
 import "scrabble_score"
 
--- Lowercase letter
+-- lowercase letter
 -- ==
 -- input { "a" }
 -- output { 1 }
 
--- Uppercase letter
+-- uppercase letter
 -- ==
 -- input { "A" }
 -- output { 1 }
 
--- Valuable letter
+-- valuable letter
 -- ==
 -- input { "f" }
 -- output { 4 }
 
--- Short word
+-- short word
 -- ==
 -- input { "at" }
 -- output { 2 }
 
--- Short, valuable word
+-- short, valuable word
 -- ==
 -- input { "zoo" }
 -- output { 12 }
 
--- Medium word
+-- medium word
 -- ==
 -- input { "street" }
 -- output { 6 }
 
--- Medium, valuable word
+-- medium, valuable word
 -- ==
 -- input { "quirky" }
 -- output { 22 }
 
--- Long, mixed-case word
+-- long, mixed-case word
 -- ==
 -- input { "OxyphenButazone" }
 -- output { 41 }
 
--- English-like word
+-- english-like word
 -- ==
 -- input { "pinata" }
 -- output { 8 }
 
--- Empty input
+-- empty input
 -- ==
 -- input { "" }
 -- output { 0 }
 
--- Entire alphabet available
+-- entire alphabet available
 -- ==
 -- input { "abcdefghijklmnopqrstuvwxyz" }
 -- output { 87 }

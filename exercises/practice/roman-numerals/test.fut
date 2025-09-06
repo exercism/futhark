@@ -125,6 +125,11 @@ import "roman_numerals"
 -- input { 3001 }
 -- output { "MMMI" }
 
+-- 3888 is MMMDCCCLXXXVIII
+-- ==
+-- input { 3888 }
+-- output { "MMMDCCCLXXXVIII" }
+
 -- 3999 is MMMCMXCIX
 -- ==
 -- input { 3999 }
