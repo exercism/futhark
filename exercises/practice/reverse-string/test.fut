@@ -1,31 +1,31 @@
 import "reverse_string"
 
--- An empty string
+-- an empty string
 -- ==
 -- input { "" }
 -- output { "" }
 
--- A word
+-- a word
 -- ==
 -- input { "robot" }
 -- output { "tobor" }
 
--- A capitalized word
+-- a capitalized word
 -- ==
 -- input { "Ramen" }
 -- output { "nemaR" }
 
--- A sentence with punctuation
+-- a sentence with punctuation
 -- ==
 -- input { "I'm hungry!" }
 -- output { "!yrgnuh m'I" }
 
--- A palindrome
+-- a palindrome
 -- ==
 -- input { "racecar" }
 -- output { "racecar" }
 
--- An even-sized word
+-- an even-sized word
 -- ==
 -- input { "drawer" }
 -- output { "reward" }

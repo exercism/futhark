@@ -1,16 +1,16 @@
 import "two_fer"
 
--- No name given
+-- no name given
 -- ==
 -- input { "" }
 -- output { "One for you, one for me." }
 
--- A name given
+-- a name given
 -- ==
 -- input { "Alice" }
 -- output { "One for Alice, one for me." }
 
--- Another name given
+-- another name given
 -- ==
 -- input { "Bob" }
 -- output { "One for Bob, one for me." }
