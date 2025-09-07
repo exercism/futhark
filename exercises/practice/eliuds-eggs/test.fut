@@ -22,4 +22,3 @@ import "eliuds_eggs"
 
 let main (encoded_value: i32): i32 =
   egg_count encoded_value
-  
