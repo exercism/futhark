@@ -1,126 +1,126 @@
 import "bob"
 
--- Stating something
+-- stating something
 -- ==
 -- input { "Tom-ay-to, tom-aaaah-to." }
 -- output { "Whatever." }
 
--- Shouting
+-- shouting
 -- ==
 -- input { "WATCH OUT!" }
 -- output { "Whoa, chill out!" }
 
--- Shouting gibberish
+-- shouting gibberish
 -- ==
 -- input { "FCECDFCAAB" }
 -- output { "Whoa, chill out!" }
 
--- Asking a question
+-- asking a question
 -- ==
 -- input { "Does this cryogenic chamber make me look fat?" }
 -- output { "Sure." }
 
--- Asking a numeric question
+-- asking a numeric question
 -- ==
 -- input { "You are, what, like 15?" }
 -- output { "Sure." }
 
--- Asking gibberish
+-- asking gibberish
 -- ==
 -- input { "fffbbcbeab?" }
 -- output { "Sure." }
 
--- Talking forcefully
+-- talking forcefully
 -- ==
 -- input { "Hi there!" }
 -- output { "Whatever." }
 
--- Using acronyms in regular speech
+-- using acronyms in regular speech
 -- ==
 -- input { "It's OK if you don't want to go work for NASA." }
 -- output { "Whatever." }
 
--- Forceful question
+-- forceful question
 -- ==
 -- input { "WHAT'S GOING ON?" }
 -- output { "Calm down, I know what I'm doing!" }
 
--- Shouting numbers
+-- shouting numbers
 -- ==
 -- input { "1, 2, 3 GO!" }
 -- output { "Whoa, chill out!" }
 
--- No letters
+-- no letters
 -- ==
 -- input { "1, 2, 3" }
 -- output { "Whatever." }
 
--- Question with no letters
+-- question with no letters
 -- ==
 -- input { "4?" }
 -- output { "Sure." }
 
--- Shouting with special characters
+-- shouting with special characters
 -- ==
 -- input { "ZOMG THE %^*@#$(*^ ZOMBIES ARE COMING!!11!!1!" }
 -- output { "Whoa, chill out!" }
 
--- Shouting with no exclamation mark
+-- shouting with no exclamation mark
 -- ==
 -- input { "I HATE THE DENTIST" }
 -- output { "Whoa, chill out!" }
 
--- Statement containing question mark
+-- statement containing question mark
 -- ==
 -- input { "Ending with ? means a question." }
 -- output { "Whatever." }
 
--- Non-letters with question
+-- non-letters with question
 -- ==
 -- input { ":) ?" }
 -- output { "Sure." }
 
--- Prattling on
+-- prattling on
 -- ==
 -- input { "Wait! Hang on. Are you going to be OK?" }
 -- output { "Sure." }
 
--- Silence
+-- silence
 -- ==
 -- input { "" }
 -- output { "Fine. Be that way!" }
 
--- Prolonged silence
+-- prolonged silence
 -- ==
 -- input { "          " }
 -- output { "Fine. Be that way!" }
 
--- Alternate silence
+-- alternate silence
 -- ==
 -- input { "\t\t\t\t\t\t\t\t\t\t" }
 -- output { "Fine. Be that way!" }
 
--- Multiple line question
+-- multiple line question
 -- ==
--- input { "\nDoes this cryogenic chamber make me look fat?\nNo." }
--- output { "Whatever." }
+-- input { "\nDoes this cryogenic chamber make\n me look fat?" }
+-- output { "Sure." }
 
--- Starting with whitespace
+-- starting with whitespace
 -- ==
 -- input { "         hmmmmmmm..." }
 -- output { "Whatever." }
 
--- Ending with whitespace
+-- ending with whitespace
 -- ==
 -- input { "Okay if like my  spacebar  quite a bit?   " }
 -- output { "Sure." }
 
--- Other whitespace
+-- other whitespace
 -- ==
 -- input { "\n\r \t" }
 -- output { "Fine. Be that way!" }
 
--- Non-question ending with whitespace
+-- non-question ending with whitespace
 -- ==
 -- input { "This is a statement ending with whitespace      " }
 -- output { "Whatever." }
