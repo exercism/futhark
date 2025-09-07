@@ -1,46 +1,46 @@
 import "hamming"
 
--- Empty strands
+-- empty strands
 -- ==
 -- input { "" "" }
 -- output { 0 }
 
--- Single letter identical strands
+-- single letter identical strands
 -- ==
 -- input { "A" "A" }
 -- output { 0 }
 
--- Single letter different strands
+-- single letter different strands
 -- ==
 -- input { "G" "T" }
 -- output { 1 }
 
--- Long identical strands
+-- long identical strands
 -- ==
 -- input { "GGACTGAAATCTG" "GGACTGAAATCTG" }
 -- output { 0 }
 
--- Long different strands
+-- long different strands
 -- ==
 -- input { "GGACGGATTCTG" "AGGACGGATTCT" }
 -- output { 9 }
 
--- Disallow first strand longer
+-- disallow first strand longer
 -- ==
 -- input { "AATG" "AAA" }
 -- error: Error*
 
--- Disallow second strand longer
+-- disallow second strand longer
 -- ==
 -- input { "ATA" "AGTG" }
 -- error: Error*
 
--- Disallow empty first strand
+-- disallow empty first strand
 -- ==
 -- input { "" "G" }
 -- error: Error*
 
--- Disallow empty second strand
+-- disallow empty second strand
 -- ==
 -- input { "G" "" }
 -- error: Error*

@@ -1,71 +1,71 @@
 import "isogram"
 
--- Empty string
+-- empty string
 -- ==
 -- input { "" }
 -- output { true }
 
--- Isogram with only lower case characters
+-- isogram with only lower case characters
 -- ==
 -- input { "isogram" }
 -- output { true }
 
--- Word with one duplicated character
+-- word with one duplicated character
 -- ==
 -- input { "eleven" }
 -- output { false }
 
--- Word with one duplicated character from the end of the alphabet
+-- word with one duplicated character from the end of the alphabet
 -- ==
 -- input { "zzyzx" }
 -- output { false }
 
--- Longest reported english isogram
+-- longest reported english isogram
 -- ==
 -- input { "subdermatoglyphic" }
 -- output { true }
 
--- Word with duplicated character in mixed case
+-- word with duplicated character in mixed case
 -- ==
 -- input { "Alphabet" }
 -- output { false }
 
--- Word with duplicated character in mixed case, lowercase first
+-- word with duplicated character in mixed case, lowercase first
 -- ==
 -- input { "alphAbet" }
 -- output { false }
 
--- Hypothetical isogrammic word with hyphen
+-- hypothetical isogrammic word with hyphen
 -- ==
 -- input { "thumbscrew-japingly" }
 -- output { true }
 
--- Hypothetical word with duplicated character following hyphen
+-- hypothetical word with duplicated character following hyphen
 -- ==
 -- input { "thumbscrew-jappingly" }
 -- output { false }
 
--- Isogram with duplicated hyphen
+-- isogram with duplicated hyphen
 -- ==
 -- input { "six-year-old" }
 -- output { true }
 
--- Made-up name that is an isogram
+-- made-up name that is an isogram
 -- ==
 -- input { "Emily Jung Schwartzkopf" }
 -- output { true }
 
--- Duplicated character in the middle
+-- duplicated character in the middle
 -- ==
 -- input { "accentor" }
 -- output { false }
 
--- Same first and last characters
+-- same first and last characters
 -- ==
 -- input { "angola" }
 -- output { false }
 
--- Word with duplicated character and with two hyphens
+-- word with duplicated character and with two hyphens
 -- ==
 -- input { "up-to-date" }
 -- output { false }
