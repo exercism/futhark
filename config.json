@@ -322,6 +322,14 @@
         "difficulty": 4
       },
       {
+        "slug": "matrix",
+        "name": "Matrix",
+        "uuid": "213bf83a-3a6b-44c5-b145-439b262cbd3d",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "perfect-numbers",
         "name": "Perfect Numbers",
         "uuid": "1d055a9e-8be3-43b7-b254-fe918d864c61",
