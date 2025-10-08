@@ -618,6 +618,14 @@
         "difficulty": 8
       },
       {
+        "slug": "spiral-matrix",
+        "name": "Spiral Matrix",
+        "uuid": "4d8c6bd6-0dbc-4360-a525-a6c80d3200f5",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 8
+      },
+      {
         "slug": "wordy",
         "name": "Wordy",
         "uuid": "bcfdd937-5cbb-4ac3-80f9-818724d87c4c",
