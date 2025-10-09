@@ -482,6 +482,14 @@
         "difficulty": 6
       },
       {
+        "slug": "diamond",
+        "name": "Diamond",
+        "uuid": "4f7e2b00-eff5-4b71-98d0-f4b909e74ab0",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 6
+      },
+      {
         "slug": "flower-field",
         "name": "Flower Field",
         "uuid": "f0ba257c-3432-439e-b2b7-706e7f4ad87d",
