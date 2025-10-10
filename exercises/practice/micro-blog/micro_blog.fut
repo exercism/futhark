@@ -1,1 +1,1 @@
-def truncate (phrase: []u8): []u8 = ???
+def truncate (phrase: *[]u8): *[]u8 = ???

@@ -7,5 +7,5 @@ def gen_test_case(prop, description, inp, expected, f):
 
 
 def gen_main(f):
-    f.write("let main (phrase: []u8): []u8 =\n")
+    f.write("let main (phrase: *[]u8): *[]u8 =\n")
     f.write("  truncate phrase\n")

@@ -60,5 +60,5 @@ import "micro_blog"
 -- input { "🃎🂸🃅🃋🃍🃁🃊" }
 -- output { "🃎🂸🃅🃋🃍" }
 
-let main (phrase: []u8): []u8 =
+let main (phrase: *[]u8): *[]u8 =
   truncate phrase
