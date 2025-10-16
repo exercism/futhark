@@ -618,6 +618,14 @@
         "difficulty": 8
       },
       {
+        "slug": "ocr-numbers",
+        "name": "OCR Numbers",
+        "uuid": "3fc91534-be00-4040-8bd8-bacc8face2ac",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 8
+      },
+      {
         "slug": "spiral-matrix",
         "name": "Spiral Matrix",
         "uuid": "4d8c6bd6-0dbc-4360-a525-a6c80d3200f5",
