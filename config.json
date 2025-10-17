@@ -210,6 +210,14 @@
         "difficulty": 3
       },
       {
+        "slug": "resistor-color",
+        "name": "Resistor Color",
+        "uuid": "ff554013-d9a9-4fe4-83e2-0fafe504e803",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
+      },
+      {
         "slug": "rotational-cipher",
         "name": "Rotational Cipher",
         "uuid": "cdcd3ed8-14a9-4cf8-8545-408986edb6fb",
