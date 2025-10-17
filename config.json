@@ -378,6 +378,14 @@
         "difficulty": 4
       },
       {
+        "slug": "series",
+        "name": "Series",
+        "uuid": "4f4ae55e-e180-47d9-90bf-be104a3f7b31",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "sieve",
         "name": "Sieve",
         "uuid": "105acc5d-dc8b-4fb9-b8f3-5faab3990954",
