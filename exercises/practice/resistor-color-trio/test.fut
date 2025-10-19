@@ -3,7 +3,7 @@ import "resistor_color_trio"
 -- Orange and orange and black
 -- ==
 -- input { "orange" "orange" "black" }
--- output { "33  ohms    " }
+-- output { " 33 ohms    " }
 
 -- Blue and grey and brown
 -- ==
@@ -13,12 +13,12 @@ import "resistor_color_trio"
 -- Red and black and red
 -- ==
 -- input { "red" "black" "red" }
--- output { "2   kiloohms" }
+-- output { "  2 kiloohms" }
 
 -- Green and brown and orange
 -- ==
 -- input { "green" "brown" "orange" }
--- output { "51  kiloohms" }
+-- output { " 51 kiloohms" }
 
 -- Yellow and violet and yellow
 -- ==
@@ -28,22 +28,22 @@ import "resistor_color_trio"
 -- Blue and violet and blue
 -- ==
 -- input { "blue" "violet" "blue" }
--- output { "67  megaohms" }
+-- output { " 67 megaohms" }
 
 -- Minimum possible value
 -- ==
 -- input { "black" "black" "black" }
--- output { "0   ohms    " }
+-- output { "  0 ohms    " }
 
 -- Maximum possible value
 -- ==
 -- input { "white" "white" "white" }
--- output { "99  gigaohms" }
+-- output { " 99 gigaohms" }
 
 -- First two colors make an invalid octal number
 -- ==
 -- input { "black" "grey" "black" }
--- output { "8   ohms    " }
+-- output { "  8 ohms    " }
 
 -- Ignore extra colors
 -- ==

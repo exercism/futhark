@@ -22,9 +22,9 @@ def colorCode (color: []u8): i32 =
 
 def label_value (first: u8) (second: u8) (remainder: i32): [3]u8 =
   if remainder == 0 then (
-    if second == '0' then [ first, ' ', ' ' ] else [ first, '.', second ]
+    if second == '0' then [ ' ', ' ', first ] else [ first, '.', second ]
   ) else if remainder == 1 then (
-    if first == '0' then [ second, ' ', ' ' ] else [ first, second, ' ' ]
+    if first == '0' then [ ' ', ' ', second ] else [ ' ', first, second ]
   ) else if remainder == 2 then (
     [ first, second, '0' ]
   ) else assert false "   "
