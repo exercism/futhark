@@ -14,8 +14,10 @@ local def decode_direction (i: i32): direction =
       case 3 -> #west
       case _ -> assert false #north
 
-def main (x: i32) (y: i32) (direction: i32) (instructions: []u8): []i32 =
-  let result = move ((x, y), decode_direction direction) instructions
+def main (start: []i32) (instructions: []u8): []i32 =
+  let start_position = (start[0], start[1])
+  let start_direction = decode_direction start[2]
+  let result = move (start_position, start_direction) instructions
   in
     [result.0.0, result.0.1, encode_direction result.1]
 """
@@ -39,7 +41,7 @@ def gen_test_case(prop, description, inp, expected, f):
 
     f.write(f"-- {description}\n")
     f.write("-- ==\n")
-    f.write(f'-- input  {{ {in_x} {in_y} {in_d} "{instructions}" }}\n')
+    f.write(f'-- input  {{ [{in_x}, {in_y}, {in_d}] "{instructions}" }}\n')
     f.write(f"-- output {{ [{out_x}, {out_y}, {out_d}] }}\n\n")
 
 
