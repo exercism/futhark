@@ -35,6 +35,16 @@ import "isbn_verifier"
 -- input { "3-598-2X507-9" }
 -- output { false }
 
+-- only one check digit is allowed
+-- ==
+-- input { "3-598-21508-96" }
+-- output { false }
+
+-- X is not substituted by the value 10
+-- ==
+-- input { "3-598-2X507-5" }
+-- output { false }
+
 -- valid isbn without separating dashes
 -- ==
 -- input { "3598215088" }
