@@ -562,6 +562,14 @@
         "difficulty": 6
       },
       {
+        "slug": "robot-simulator",
+        "name": "Robot Simulator",
+        "uuid": "6fc65865-1e9b-48d7-a2c6-6f50bea3b094",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 6
+      },
+      {
         "slug": "say",
         "name": "Say",
         "uuid": "32d1e25e-86d6-4f2f-8f5e-5a5e8a2d3d32",
