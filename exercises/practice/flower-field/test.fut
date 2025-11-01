@@ -60,5 +60,10 @@ import "flower_field"
 -- input  { [" *  * ", "  *   ", "    * ", "   * *", " *  * ", "      "] }
 -- output { ["1*22*1", "12*322", " 123*2", "112*4*", "1*22*2", "111111"] }
 
+-- multiple adjacent flowers
+-- ==
+-- input  { [" ** "] }
+-- output { ["1**1"] }
+
 let main [m] [n] (garden: [m][n]u8): [m][n]u8 =
   annotate garden
