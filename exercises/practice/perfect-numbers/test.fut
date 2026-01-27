@@ -30,6 +30,11 @@ import "perfect_numbers"
 -- input { 33550335 }
 -- output { "Abundant" }
 
+-- Perfect square abundant number is classified correctly
+-- ==
+-- input { 196 }
+-- output { "Abundant" }
+
 -- Smallest prime deficient number is classified correctly
 -- ==
 -- input { 2 }
