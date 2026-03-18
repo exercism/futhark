@@ -1,1 +1,1 @@
-def transpose [m] [n] (lines: [m][n]u8): [n][m]u8 = ???
+def transposition [m] [n] (lines: [m][n]u8): [n][m]u8 = ???

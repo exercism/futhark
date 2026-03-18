@@ -17,4 +17,4 @@ def gen_test_case(prop, description, inp, expected, f):
 
 def gen_main(f):
     f.write("def main [m] [n] (lines: [m][n]u8): [n][m]u8 =\n")
-    f.write("  transpose lines\n")
+    f.write("  transposition lines\n")

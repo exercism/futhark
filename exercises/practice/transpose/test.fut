@@ -56,4 +56,4 @@ import "transpose"
 -- output { ["123456", "1 3456", "  3456", "  3 56", "    56", "    5 "] }
 
 def main [m] [n] (lines: [m][n]u8): [n][m]u8 =
-  transpose lines
+  transposition lines
