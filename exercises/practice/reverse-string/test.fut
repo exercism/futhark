@@ -31,4 +31,4 @@ import "reverse_string"
 -- output { "reward" }
 
 let main (str: []u8): []u8 =
-  reverse str
+  reversal str
