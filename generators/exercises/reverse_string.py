@@ -8,4 +8,4 @@ def gen_test_case(prop, description, inp, expected, f):
 
 def gen_main(f):
     f.write("let main (str: []u8): []u8 =\n")
-    f.write("  reverse str\n")
+    f.write("  reversal str\n")
