@@ -35,6 +35,16 @@ import "connect"
 -- input  { [". O . .    ", " O X X X   ", "  O X O .  ", "   X X O X ", "    . O X ."] }
 -- output { "X" }
 
+-- X wins with left-hand dead end fork
+-- ==
+-- input  { [". . X .   ", " X X . .  ", "  . X X X ", "   O O O O"] }
+-- output { "X" }
+
+-- X wins with right-hand dead end fork
+-- ==
+-- input  { [". . X X   ", " X X . .  ", "  . X X . ", "   O O O O"] }
+-- output { "X" }
+
 -- O wins crossing from top to bottom
 -- ==
 -- input  { [". O . .    ", " O X X X   ", "  O O O .  ", "   X X O X ", "    . O X ."] }
