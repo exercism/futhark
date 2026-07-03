@@ -1,24 +1,29 @@
 import "bob"
 
--- stating something
+-- asking a question
 -- ==
--- input { "Tom-ay-to, tom-aaaah-to." }
--- output { "Whatever." }
+-- input { "Does this cryogenic chamber make me look fat?" }
+-- output { "Sure." }
 
 -- shouting
 -- ==
 -- input { "WATCH OUT!" }
 -- output { "Whoa, chill out!" }
 
--- shouting gibberish
+-- forceful question
 -- ==
--- input { "FCECDFCAAB" }
--- output { "Whoa, chill out!" }
+-- input { "WHAT'S GOING ON?" }
+-- output { "Calm down, I know what I'm doing!" }
 
--- asking a question
+-- silence
 -- ==
--- input { "Does this cryogenic chamber make me look fat?" }
--- output { "Sure." }
+-- input { "" }
+-- output { "Fine. Be that way!" }
+
+-- stating something
+-- ==
+-- input { "Tom-ay-to, tom-aaaah-to." }
+-- output { "Whatever." }
 
 -- asking a numeric question
 -- ==
@@ -30,50 +35,10 @@ import "bob"
 -- input { "fffbbcbeab?" }
 -- output { "Sure." }
 
--- talking forcefully
--- ==
--- input { "Hi there!" }
--- output { "Whatever." }
-
--- using acronyms in regular speech
--- ==
--- input { "It's OK if you don't want to go work for NASA." }
--- output { "Whatever." }
-
--- forceful question
--- ==
--- input { "WHAT'S GOING ON?" }
--- output { "Calm down, I know what I'm doing!" }
-
--- shouting numbers
--- ==
--- input { "1, 2, 3 GO!" }
--- output { "Whoa, chill out!" }
-
--- no letters
--- ==
--- input { "1, 2, 3" }
--- output { "Whatever." }
-
 -- question with no letters
 -- ==
 -- input { "4?" }
 -- output { "Sure." }
-
--- shouting with special characters
--- ==
--- input { "ZOMG THE %^*@#$(*^ ZOMBIES ARE COMING!!11!!1!" }
--- output { "Whoa, chill out!" }
-
--- shouting with no exclamation mark
--- ==
--- input { "I HATE THE DENTIST" }
--- output { "Whoa, chill out!" }
-
--- statement containing question mark
--- ==
--- input { "Ending with ? means a question." }
--- output { "Whatever." }
 
 -- non-letters with question
 -- ==
@@ -85,10 +50,40 @@ import "bob"
 -- input { "Wait! Hang on. Are you going to be OK?" }
 -- output { "Sure." }
 
--- silence
+-- ending with whitespace
 -- ==
--- input { "" }
--- output { "Fine. Be that way!" }
+-- input { "Okay if like my  spacebar  quite a bit?   " }
+-- output { "Sure." }
+
+-- multiple line question
+-- ==
+-- input { "\nDoes this cryogenic chamber make\n me look fat?" }
+-- output { "Sure." }
+
+-- shouting gibberish
+-- ==
+-- input { "FCECDFCAAB" }
+-- output { "Whoa, chill out!" }
+
+-- shouting a statement containing a question mark
+-- ==
+-- input { "DO LIONS EAT PEOPLE? AHHHHH." }
+-- output { "Whoa, chill out!" }
+
+-- shouting numbers
+-- ==
+-- input { "1, 2, 3 GO!" }
+-- output { "Whoa, chill out!" }
+
+-- shouting with special characters
+-- ==
+-- input { "ZOMG THE %^*@#$(*^ ZOMBIES ARE COMING!!11!!1!" }
+-- output { "Whoa, chill out!" }
+
+-- shouting with no exclamation mark
+-- ==
+-- input { "I HATE THE DENTIST" }
+-- output { "Whoa, chill out!" }
 
 -- prolonged silence
 -- ==
@@ -100,25 +95,35 @@ import "bob"
 -- input { "\t\t\t\t\t\t\t\t\t\t" }
 -- output { "Fine. Be that way!" }
 
--- multiple line question
+-- other whitespace
 -- ==
--- input { "\nDoes this cryogenic chamber make\n me look fat?" }
--- output { "Sure." }
+-- input { "\n\r \t" }
+-- output { "Fine. Be that way!" }
+
+-- talking forcefully
+-- ==
+-- input { "Hi there!" }
+-- output { "Whatever." }
+
+-- using acronyms in regular speech
+-- ==
+-- input { "It's OK if you don't want to go work for NASA." }
+-- output { "Whatever." }
+
+-- no letters
+-- ==
+-- input { "1, 2, 3" }
+-- output { "Whatever." }
+
+-- statement containing question mark
+-- ==
+-- input { "Ending with ? means a question." }
+-- output { "Whatever." }
 
 -- starting with whitespace
 -- ==
 -- input { "         hmmmmmmm..." }
 -- output { "Whatever." }
-
--- ending with whitespace
--- ==
--- input { "Okay if like my  spacebar  quite a bit?   " }
--- output { "Sure." }
-
--- other whitespace
--- ==
--- input { "\n\r \t" }
--- output { "Fine. Be that way!" }
 
 -- non-question ending with whitespace
 -- ==
