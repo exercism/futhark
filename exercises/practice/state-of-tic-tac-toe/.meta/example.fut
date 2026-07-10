@@ -15,7 +15,7 @@ def game_state (board: [3][3]u8): state =
     let win_x = is_win bitset_x
     let win_o = is_win bitset_o
     in
-    	if count_x > count_o + 1 || count_o > count_x || (win_x && win_o) then #invalid else
+      if count_x + i32.bool win_o > count_o + 1 || count_o + i32.bool win_x > count_x || (win_x && win_o) then #invalid else
     	if win_x || win_o then #win else
     	if count_x + count_o == 9 then #draw else
     	#ongoing

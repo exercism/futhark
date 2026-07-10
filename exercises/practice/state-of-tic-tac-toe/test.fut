@@ -135,6 +135,16 @@ import "state_of_tic_tac_toe"
 -- input { ["XXX", "OOO", "XOX"] }
 -- output { "invalid" }
 
+-- Invalid board: O kept playing after X wins
+-- ==
+-- input { ["OO ", "XXX", " O "] }
+-- output { "invalid" }
+
+-- Invalid board: X kept playing after O wins
+-- ==
+-- input { ["XX ", "OOO", " XX"] }
+-- output { "invalid" }
+
 local def name(s: state): []u8 =
   match s
     case #win     -> "win"
