@@ -70,10 +70,35 @@ import "line_up"
 -- input { "Washi" 21 }
 -- output { "Washi, you are the 21st customer we serve today. Thank you!" }
 
+-- format exceptional ordinal numeral 22 ending in nd even though it is a multiple of 11
+-- ==
+-- input { "Ingrid" 22 }
+-- output { "Ingrid, you are the 22nd customer we serve today. Thank you!" }
+
+-- format exceptional ordinal numeral 33 ending in rd even though it is a multiple of 11
+-- ==
+-- input { "Mario" 33 }
+-- output { "Mario, you are the 33rd customer we serve today. Thank you!" }
+
+-- format exceptional ordinal numeral 52 ending in nd even though it is a multiple of 13
+-- ==
+-- input { "Quentin" 52 }
+-- output { "Quentin, you are the 52nd customer we serve today. Thank you!" }
+
 -- format exceptional ordinal numeral 62
 -- ==
 -- input { "Nayra" 62 }
 -- output { "Nayra, you are the 62nd customer we serve today. Thank you!" }
+
+-- format non-exceptional ordinal numeral 72 ending in nd even though it is a multiple of 12
+-- ==
+-- input { "Ugo" 72 }
+-- output { "Ugo, you are the 72nd customer we serve today. Thank you!" }
+
+-- format exceptional ordinal numeral 91 ending in st even though it is a multiple of 13
+-- ==
+-- input { "Boris" 91 }
+-- output { "Boris, you are the 91st customer we serve today. Thank you!" }
 
 -- format exceptional ordinal numeral 100
 -- ==
@@ -94,6 +119,11 @@ import "line_up"
 -- ==
 -- input { "Yma" 123 }
 -- output { "Yma, you are the 123rd customer we serve today. Thank you!" }
+
+-- format large number 972 ending in nd even though it is a multiple of 12
+-- ==
+-- input { "Elias" 972 }
+-- output { "Elias, you are the 972nd customer we serve today. Thank you!" }
 
 let main (name: []u8) (number: i32): []u8 =
   format name number
