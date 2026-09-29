@@ -4,6 +4,14 @@
 
 Exercism exercises in Futhark.
 
+## Contributing Guide
+
+Any type of contribution is more than welcome!
+
+Before opening a pull request please have look into [Contributors Pull Request
+Guide](https://exercism.org/docs/building/github/contributors-pull-request-guide)
+and discuss your proposed contribution in the [forum][forum].
+
 ## Testing
 
 To test all exercises, run `./bin/verify-exercises`.
@@ -67,3 +75,5 @@ Optionally, you can also specify the exercise's difficulty (via `-d`) and/or aut
 ```shell
 bin/add-practice-exercise -a foobar -d 3 <exercise-slug>
 ```
+
+[forum]: https://forum.exercism.org/c/programming/futhark
