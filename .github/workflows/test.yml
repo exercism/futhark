@@ -14,13 +14,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
 
-      - name: Configure homebrew
-        run: |
-          eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-          echo "$(brew --prefix)/bin" >> "$GITHUB_PATH"
-
       - name: Install futhark
-        run: brew install futhark
+        env:
+          FUTHARK_VERSION: 0.26.1
+        run: |
+          curl -fsSLO "https://github.com/diku-dk/futhark/releases/download/v${FUTHARK_VERSION}/futhark-${FUTHARK_VERSION}-linux-x86_64.tar.xz"
+          tar -xJf "futhark-${FUTHARK_VERSION}-linux-x86_64.tar.xz"
+          sudo cp "futhark-${FUTHARK_VERSION}-linux-x86_64/bin/futhark" /usr/local/bin/
+          rm -rf "futhark-${FUTHARK_VERSION}-linux-x86_64" "futhark-${FUTHARK_VERSION}-linux-x86_64.tar.xz"
 
       - name: Verify all exercises
         run: bin/verify-exercises
