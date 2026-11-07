@@ -1,0 +1,6 @@
+def most_common_word [n] (words: [n]i64) (num_words: i64) : (i64, i64) =
+  let counts = hist (+) 0 num_words words (replicate n 1i64)
+  in loop (best, best_count) = (0, 0) for word < num_words do
+       if counts[word] > best_count
+       then (word, counts[word])
+       else (best, best_count)
