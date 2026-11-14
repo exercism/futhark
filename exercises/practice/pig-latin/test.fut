@@ -112,8 +112,8 @@ import "pig_latin"
 
 -- a whole phrase
 -- ==
--- input { "quick fast run" }
--- output { "ickquay astfay unray" }
+-- input { "why do squids enjoy xrays" }
+-- output { "ywhay oday idssquay enjoyay xraysay" }
 
 def main (phrase: []u8): []u8 =
   translate phrase
